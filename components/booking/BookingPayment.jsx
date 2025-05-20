@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
-import MyPOSEmbeddedCheckout from "@/components/booking/MyPOSEmbeddedCheckout";
+// import MyPOSEmbeddedCheckout from "@/components/booking/MyPOSEmbeddedCheckout";
 import SideBar from "./SideBar";
 import Link from "next/link";
 
@@ -85,7 +85,7 @@ export default function BookingPayment() {
           </div>
 
           {/* MyPOS Checkout Section */}
-          <div className="mt-30">
+          {/* <div className="mt-30">
             <h3 className="heading-24-medium color-text mb-30">Payment</h3>
             <div>
               {checkoutId ? (
@@ -94,7 +94,7 @@ export default function BookingPayment() {
                 <p>Loading payment form...</p>
               )}
             </div>
-          </div>
+          </div> */}
 
           {/* Terms & Conditions */}
           <div className="mt-30">
