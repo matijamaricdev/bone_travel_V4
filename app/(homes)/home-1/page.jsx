@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Header1 /> <MobailHeader1 />
-      <MobailHeader1 />
+      {/* <MobailHeader1 />
       <main className="main">
         <Hero />
         <Partners />
@@ -41,7 +41,7 @@ export default function Home() {
         <Faq />
         <DownloadApp />
       </main>
-      <Footer1 />
+      <Footer1 /> */}
     </>
   );
 }
