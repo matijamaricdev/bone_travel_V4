@@ -25,20 +25,7 @@ const GOOGLE_MAPS_API_KEY = "AIzaSyCQlbIdRgz6NH7We-n0C6iI9xHwNG07hV0";
 export default function page() {
   return (
     <>
-    <Script
-        strategy="beforeInteractive"
-        src={`https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places`}
-      />
-      <Header9 /> <MobailHeader1 />
-      <main className="main">
-        <Hero />
-        <Features />
-        <Feet />
-        <Process />
-        <Services />
-        <Features2 />
-      </main>
-      <Footer1 />
+<h1>Bone Travel 10</h1>
     </>
   );
 }

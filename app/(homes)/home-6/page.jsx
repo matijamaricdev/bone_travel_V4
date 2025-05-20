@@ -19,19 +19,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header6 /> <MobailHeader1 />
-      <main className="main">
-        <Hero />
-        <Process />
-        <Feet />
-        <Faq />
-        <Testimonials />
-        <Features />
-        <Cities />
-        <Blogs />
-        <Features2 />
-      </main>
-      <Footer6 />
+     <h1>Bone Travel 6</h1>
     </>
   );
 }

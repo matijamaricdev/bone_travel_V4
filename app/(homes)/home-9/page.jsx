@@ -21,22 +21,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header8 /> <MobailHeader1 />
-      <main className="main">
-        <Hero />
-        <Feet />
-        <Features />
-        <div className="container-sub">
-          <Partners />
-        </div>
-        <Features2 />
-        <Features3 />
-        <Service />
-        <Blogs />
-        <Process />
-        <DownloadApp />
-      </main>
-      <Footer9 />
+<h1>Bone Travel 9</h1>
     </>
   );
 }

@@ -19,19 +19,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header5 /> <MobailHeader1 />
-      <main className="main" style={{ maxWidth: "100vw", overflow: "hidden" }}>
-        <Hero />
-        <Partners />
-        <div className="border-bottom"></div>
-        <Feet />
-        <Service />
-        <Faq />
-        <Cities />
-        <Testimonials />
-        <Blogs />
-      </main>
-      <Footer5 />
+<h1>Bone Travel 5</h1>
     </>
   );
 }
